@@ -27,7 +27,7 @@ public class BaseClass {
 	@AfterMethod
 	public void afterMethod() {
 		driver.close();
-		int x=10;
+		System.out.println("Browser is Closed");
 	}
 
 
